@@ -6,12 +6,12 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export PATH=/usr/local/bin/:$PATH
 # Zsh
-export ZSH="$HOME/.oh-my-zsh"
+export ZSH=$HOME/.oh-my-zsh
 # Haskell
-export PATH="$HOME/Library/Haskell/bin:$PATH"
+export PATH=$HOME/Library/Haskell/bin:$PATH
 export PATH=$HOME/.cabal/bin:$PATH
 # Rust
-export PATH="$HOME/.cargo/bin:$PATH"
+export PATH=$HOME/.cargo/bin:$PATH
 
 # Hide username in Agnoster theme
 DEFAULT_USER="$USER"
