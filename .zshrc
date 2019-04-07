@@ -24,6 +24,17 @@ HYPHEN_INSENSITIVE="true"
 # Easier navigation: $ z dirname
 . `brew --prefix`/etc/profile.d/z.sh
 
+plugins=(
+  git
+  osx
+  zsh-syntax-highlighting
+  zsh-autosuggestions
+  vi-mode
+)
+
+# source config
+source $ZSH/oh-my-zsh.sh
+
 # ls cmd
 alias l='ls -l'
 
@@ -37,14 +48,3 @@ alias ct='cabal test'
 
 # Python Alias
 alias py='python3'
-
-plugins=(
-  git
-  osx
-  zsh-syntax-highlighting
-  zsh-autosuggestions
-  vi-mode
-)
-
-# source config
-source $ZSH/oh-my-zsh.sh
