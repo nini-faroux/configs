@@ -46,6 +46,9 @@ alias ../../..='cd ../../../'
 alias ~='cd ~/'
 alias dt='cd ~/Desktop'
 
+# clear cmd 
+alias cl='clear'
+
 # Haskell Aliases 
 alias sg='stack ghci'
 alias sb='stack build'
