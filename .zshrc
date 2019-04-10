@@ -49,6 +49,9 @@ alias dt='cd ~/Desktop'
 # clear cmd 
 alias cl='clear'
 
+# neovim
+alias nv='nvim'
+
 # Haskell Aliases 
 alias sg='stack ghci'
 alias sb='stack build'
