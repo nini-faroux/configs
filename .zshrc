@@ -43,6 +43,8 @@ alias la='ls -la'
 alias ..='cd ..'
 alias ../..='cd ../../'
 alias ../../..='cd ../../../'
+alias ~='cd ~/'
+alias dt='cd ~/Desktop'
 
 # Haskell Aliases 
 alias sg='stack ghci'
