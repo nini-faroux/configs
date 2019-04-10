@@ -37,6 +37,12 @@ source $ZSH/oh-my-zsh.sh
 
 # ls cmd
 alias l='ls -l'
+alias la='ls -la'
+
+# cd cmd
+alias ..='cd ..'
+alias ../..='cd ../../'
+alias ../../..='cd ../../../'
 
 # Haskell Aliases 
 alias sg='stack ghci'
