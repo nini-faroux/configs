@@ -44,6 +44,7 @@ alias ..='cd ..'
 alias ../..='cd ../../'
 alias ../../..='cd ../../../'
 alias ~='cd ~/'
+alias /='cd /'
 alias dt='cd ~/Desktop'
 
 # clear cmd 
@@ -51,6 +52,16 @@ alias cl='clear'
 
 # neovim
 alias nv='nvim'
+
+# git 
+alias gs='git status'
+alias ga='git add'
+alias gr='git rm'
+alias gc='git commit'
+alias gl='git log'
+alias gp='git push'
+alias gf='git fetch'
+alias gpl='git pull'
 
 # Haskell Aliases 
 alias sg='stack ghci'
