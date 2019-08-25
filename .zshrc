@@ -1,10 +1,11 @@
 # Paths
-export PATH=/usr/local/bin:$PATH
-export PATH=/usr/bin:$PATH
-export PATH=/bin:$PATH
-export PATH=/usr/local/sbin:$PATH
 export PATH=$HOME/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
+
+export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/sbin:$PATH
+export PATH=/usr/bin:$PATH
+
 # Zsh
 export ZSH=$HOME/.oh-my-zsh
 # Haskell
