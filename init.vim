@@ -1,17 +1,7 @@
-" Colors
-execute pathogen#infect()
-
-" set color
-colorscheme badwolf 
-
-" Haskell IDE Engine
-let g:LanguageClient_serverCommands={ 'haskell': ['hie-wrapper'] }
-let g:LanguageClient_loadSettings=$HOME."/config/nvim/settings.json"
-
-"haskell settings 
+"haskell-vim settings 
 let g:haskell_classic_highlighting = 1
 let g:haskell_indent_if = 3
-let g:haskell_indent_case = 2
+let g:haskell_indent_case = 1
 let g:haskell_indent_let = 2
 let g:haskell_indent_where = 2
 let g:haskell_indent_before_where = 2
@@ -34,6 +24,12 @@ map <C-n> :NERDTreeToggle<CR>
 
 "Show hidden files in NERDTree
 let NERDTreeShowHidden=1
+
+" Colors
+execute pathogen#infect()
+
+" set color
+colorscheme badwolf 
 
 " set syntax highlighting
 syntax enable
@@ -98,7 +94,7 @@ set foldnestmax=10
 " space open/closes folds
 nnoremap <space> za
 
-" Replace Esc with double semicolon 
+" Replace Esc with ;;
 inoremap ;; <Esc>
 
 " fold based on indent level
@@ -111,7 +107,7 @@ set undodir=$HOME/.vim/undo
 set undolevels=1000
 set undoreload=10000
 
-" HIE
+" Haskell IDE Engine
 let g:LanguageClient_serverCommands={ 'haskell': ['hie-wrapper', '--lsp'] }
 let g:LanguageClient_loadSettings=$HOME."/config/nvim/coc-settings.json"
 
@@ -155,4 +151,3 @@ inoremap <silent><expr> <c-space> coc#refresh()
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " Or use `complete_info` if your vim support it, like:
 " inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
-

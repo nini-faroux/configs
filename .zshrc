@@ -2,9 +2,8 @@
 export PATH=$HOME/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 
-export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
-export PATH=/usr/bin:$PATH
+export PATH=/usr/local/bin/:$PATH
 
 # Zsh
 export ZSH=$HOME/.oh-my-zsh
@@ -22,11 +21,13 @@ ZSH_THEME="agnoster"
 # Case-insensitive 
 HYPHEN_INSENSITIVE="true"
 
-# Easier navigation: $ z dirname
+# Easier navigation
 . `brew --prefix`/etc/profile.d/z.sh
 
+# ls cmd
 alias l='ls -l'
-alias la='ls -la'
+alias la='ls -a'
+alias lla='ls -la'
 
 # cd cmd
 alias ..='cd ..'
@@ -34,35 +35,35 @@ alias ../..='cd ../../'
 alias ../../..='cd ../../../'
 alias ~='cd ~/'
 alias /='cd /'
-alias dt='cd ~/Desktop'
+alias dt='cd ~/Desktop/'
 alias dl='cd ~/Downloads/'
 
 # pwd cmd 
 alias wd='pwd'
 
-# clear cmd 
-alias cl='clear'
-
-# neovim
+# neovim 
 alias nv='nvim'
 
-# brew cmds 
+# brew cmds
 alias bi='brew install'
 alias bug='brew upgrade'
 alias bud='brew update'
 alias bdoc='brew doctor'
 alias bclean='brew clean'
 
-# git 
+# git
 alias gs='git status'
 alias ga='git add'
 alias gr='git rm'
 alias gc='git commit'
-alias gl='git log'
+alias glog='git log'
 alias gp='git push'
 alias gf='git fetch'
 alias gpl='git pull'
 alias gdiff='git diff'
+
+# clear cmd
+alias cl='clear'
 
 # Haskell Aliases 
 alias sg='stack ghci'
@@ -85,5 +86,3 @@ plugins=(
 
 # source config
 source $ZSH/oh-my-zsh.sh
-
-# ls cmd
