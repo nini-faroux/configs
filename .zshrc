@@ -12,6 +12,11 @@ export PATH=$HOME/Library/Haskell/bin:$PATH
 export PATH=$HOME/.cabal/bin:$PATH
 # Rust
 export PATH=$HOME/.cargo/bin:$PATH
+# Python venv 
+source /usr/local/bin/virtualenvwrapper.sh
+export PROJECT_HOME=$HOME/projects 
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 
 # Hide username in Agnoster theme
 DEFAULT_USER="$USER"
