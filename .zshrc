@@ -14,9 +14,9 @@ export PATH=$HOME/.cabal/bin:$PATH
 export PATH=$HOME/.cargo/bin:$PATH
 # Python venv 
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
-source /usr/local/bin/virtualenvwrapper.sh
 export PROJECT_HOME=$HOME/projects 
 export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
 
 # Hide username in Agnoster theme
 DEFAULT_USER="$USER"
