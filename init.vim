@@ -130,6 +130,11 @@ set shortmess+=c
 " always show signcolumns
 set signcolumn=yes
 
+" HIE shortcuts
+map <Leader>lk :call LanguageClient#textDocument_hover()<CR>
+map <Leader>lg :call LanguageClient#textDocument_definition()<CR>
+map <Leader>lb :call LanguageClient#textDocument_references()<CR>
+
 " Use tab for trigger completion with characters ahead and navigate.
 " Use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
 inoremap <silent><expr> <TAB>
