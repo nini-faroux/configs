@@ -4,13 +4,13 @@ export PATH=$HOME/.local/bin:$PATH
 
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/bin/:$PATH
-export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
 
 # Zsh
 export ZSH=$HOME/.oh-my-zsh
 # Haskell
 export PATH=$HOME/Library/Haskell/bin:$PATH
 export PATH=$HOME/.cabal/bin:$PATH
+export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
 # Rust
 export PATH=$HOME/.cargo/bin:$PATH
 # Python venv 
