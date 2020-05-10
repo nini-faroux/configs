@@ -1,10 +1,6 @@
 " Use deoplete.
 let g:deoplete#enable_at_startup = 1
 
-" FZF 
-set rtp+=/usr/local/opt/fzf
-nnoremap <C-f> :Files<Cr>
-
 " Colors
 execute pathogen#infect()
 
@@ -87,7 +83,8 @@ set undodir=$HOME/.vim/undo
 set undolevels=1000
 set undoreload=10000
 
-" haskell 
+" load separte configs
 source ~/.config/nvim/haskell.vim
 source ~/.config/nvim/hie-settings.vim
 source ~/.config/nvim/nerdtree-settings.vim
+source ~/.config/nvim/fzf-settings.vim
