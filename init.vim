@@ -1,6 +1,6 @@
 "haskell-vim settings 
 let g:haskell_classic_highlighting = 1
-let g:haskell_indent_if = 3
+let g:haskell_indent_if = 2
 let g:haskell_indent_case = 1
 let g:haskell_indent_let = 2
 let g:haskell_indent_where = 2
