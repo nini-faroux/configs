@@ -1,19 +1,9 @@
-"Open NERDTree when nvim starts
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
 " Use deoplete.
 let g:deoplete#enable_at_startup = 1
 
 " FZF 
 set rtp+=/usr/local/opt/fzf
 nnoremap <C-f> :Files<Cr>
-
-"Toggle NERDTree with Ctrl-N
-map <C-n> :NERDTreeToggle<CR>
-
-"Show hidden files in NERDTree
-let NERDTreeShowHidden=1
 
 " Colors
 execute pathogen#infect()
@@ -100,3 +90,4 @@ set undoreload=10000
 " haskell 
 source ~/.config/nvim/haskell.vim
 source ~/.config/nvim/hie-settings.vim
+source ~/.config/nvim/nerdtree-settings.vim
