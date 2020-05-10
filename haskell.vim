@@ -1,0 +1,1 @@
+/Users/ninifaroux/.config/nvim/haskell.vim

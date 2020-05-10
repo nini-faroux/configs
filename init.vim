@@ -1,17 +1,3 @@
-"haskell-vim settings 
-let g:haskell_classic_highlighting = 1
-let g:haskell_indent_if = 2
-let g:haskell_indent_case = 1
-let g:haskell_indent_let = 2
-let g:haskell_indent_where = 2
-let g:haskell_indent_before_where = 2
-let g:haskell_indent_after_bare_where = 2
-let g:haskell_indent_do = 2
-let g:haskell_indent_in = 1
-let g:haskell_indent_guard = 2
-let g:haskell_indent_case_alternative = 1
-let g:cabal_indent_section = 2
-
 "Open NERDTree when nvim starts
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
@@ -160,3 +146,6 @@ inoremap <silent><expr> <c-space> coc#refresh()
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " Or use `complete_info` if your vim support it, like:
 " inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
+
+" haskell 
+source ~/.config/nvim/haskell.vim
