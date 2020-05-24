@@ -1,5 +1,6 @@
 " Haskell IDE Engine
 let g:LanguageClient_serverCommands={ 'haskell': ['hie-wrapper', '--lsp'] }
+let g:LanguageClient_serverCommands={ 'python': ['/usr/local/bin//pyls'] }
 let g:LanguageClient_loadSettings=$HOME."/config/nvim/coc-settings.json"
 
 " if hidden is not set, TextEdit might fail.
