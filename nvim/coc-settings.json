@@ -1,4 +1,5 @@
 {
+"python.jediEnabled": false,
 "languageserver": {
   "haskell": {
     "command": "hie-wrapper",
