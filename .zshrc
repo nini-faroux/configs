@@ -79,6 +79,10 @@ alias st='stack test'
 alias cb='cabal build'
 alias ct='cabal test'
 
+alias ghci-core="ghci -ddump-simpl -dsuppress-idinfo \
+-dsuppress-coercions -dsuppress-type-applications \
+-dsuppress-uniques -dsuppress-module-prefixes"
+
 # Python Alias
 alias py='python3'
 
