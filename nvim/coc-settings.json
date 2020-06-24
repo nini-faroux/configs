@@ -2,7 +2,7 @@
 "python.jediEnabled": false,
 "languageserver": {
   "haskell": {
-    "command": "hie-wrapper",
+    "command": "haskell-language-server-wrapper",
     "args": ["--lsp"],
     "rootPatterns": [
       "*.cabal",

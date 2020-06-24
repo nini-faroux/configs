@@ -1,6 +1,6 @@
 " LSP
 let g:LanguageClient_serverCommands={  
-    \ 'haskell': ['hie-wrapper', '--lsp'],
+    \ 'haskell': ['haskell-language-server-wrapper', '--lsp'],
     \ 'python': ['/usr/local/bin//pyls'], 
     \ 'javascript': ['javascript-typescript-stdio'],
     \ }
