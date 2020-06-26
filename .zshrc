@@ -96,3 +96,6 @@ plugins=(
 
 # source config
 source $ZSH/oh-my-zsh.sh
+
+# fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

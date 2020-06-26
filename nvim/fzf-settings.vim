@@ -1,3 +1,23 @@
 " FZF 
 set rtp+=/usr/local/opt/fzf
-nnoremap <C-f> :Files<Cr>
+
+" Search current directory
+nnoremap <Leader>f :Files<Cr>
+
+" Search home directory
+nnoremap <Leader>F :FZF ~<cr>
+
+" Search root directory
+nnoremap <Leader>f, :FZF /<cr>
+
+" Search git files
+nnoremap <Leader>f :GFiles<CR>
+
+" Search buffers
+nnoremap <Leader>b :Buffers<CR>
+
+" Search buffer history
+nnoremap <Leader>h :History<CR>
+
+" ripgrep
+nnoremap <Leader>, :Rg<Space>
