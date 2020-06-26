@@ -1,23 +1,35 @@
 {
-"python.jediEnabled": false,
-"languageserver": {
-  "haskell": {
-    "command": "haskell-language-server-wrapper",
-    "args": ["--lsp"],
-    "rootPatterns": [
-      "*.cabal",
-      "stack.yaml",
-      "cabal.project",
-      "package.yaml"
-    ],
-    "filetypes": [
-      "hs",
-      "lhs",
-      "haskell"
-    ],
-    "initializationOptions": {
-      "languageServerHaskell": {
-      }
-    }
-  }
+ "python.jediEnabled": false,
+ "diagnostic.errorSign": "•",
+ "diagnostic.warningSign": "•",
+ "diagnostic.infoSign": "•",
+ "python.linting.flake8Enabled": true,
+ "python.linting.pylintEnabled": false,
+ 
+ "languageserver": {
+   "haskell": {
+     "command": "haskell-language-server-wrapper",
+     "args": ["--lsp"],
+     "rootPatterns": [
+       "BUILD.bazel",
+       ".hie-bios",
+       "*.cabal",
+       "stack.yaml",
+       "cabal.project",
+       "package.yaml"
+     ],
+     "filetypes": [
+       "hs",
+       "lhs",
+       "haskell"
+     ],
+     "initializationOptions": {},
+     "settings": {
+       "languageServerHaskell": {
+          "hlintOn": true,
+          "maxNumberOfProblems": 10,
+          "completionSnippetsOn": true
+       }
+     }
+   }
 }}
