@@ -11,7 +11,7 @@ nnoremap <Leader>F :FZF ~<cr>
 nnoremap <Leader>f, :FZF /<cr>
 
 " Search git files
-nnoremap <Leader>f :GFiles<CR>
+nnoremap <Leader>fg :GFiles<CR>
 
 " Search buffers
 nnoremap <Leader>b :Buffers<CR>

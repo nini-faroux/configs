@@ -67,6 +67,9 @@ set foldlevelstart=10
 " 10 nested fold max
 set foldnestmax=10
 
+" Remap Leader
+let mapleader = "\<Space>"
+
 " space open/closes folds
 nnoremap <space> za
 
