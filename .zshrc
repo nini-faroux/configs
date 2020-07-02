@@ -84,7 +84,8 @@ alias ghci-core="ghci -ddump-simpl -dsuppress-idinfo \
 -dsuppress-uniques -dsuppress-module-prefixes"
 
 # Python Alias
-alias py='python3'
+alias python='python3'
+alias pip='pip3'
 
 plugins=(
   git
