@@ -73,8 +73,8 @@ let mapleader = "\<Space>"
 " space open/closes folds
 nnoremap <space> za
 
-" Replace Esc with ;;
-inoremap ;; <Esc>
+" Replace Esc with jj
+inoremap jj <Esc>
 
 " fold based on indent level
 set foldmethod=indent
