@@ -18,6 +18,8 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 export PROJECT_HOME=$HOME/projects 
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
+# default editor
+export EDITOR=/usr/local/bin/nvim
 
 # Hide username in Agnoster theme
 DEFAULT_USER="$USER"
