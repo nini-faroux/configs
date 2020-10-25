@@ -1,24 +1,24 @@
 # Paths
 export PATH=$HOME/bin:$PATH
-export PATH=$HOME/.local/bin:$PATH
-
-export PATH=/usr/local/sbin:$PATH
-export PATH=/usr/local/bin/:$PATH
+PATH="$PATH":$HOME/.local/bin
+PATH="$PATH":/usr/local/sbin
+PATH="$PATH":/usr/local/bin/
 
 # Zsh
 export ZSH=$HOME/.oh-my-zsh
 # Haskell
-export PATH=$HOME/Library/Haskell/bin:$PATH
-export PATH=$HOME/.cabal/bin:$PATH
-export PATH="$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
-# Rust
-export PATH=$HOME/.cargo/bin:$PATH
-# Python venv 
+PATH="$PATH":$HOME/Library/Haskell/bin
+PATH="$PATH":$HOME/.cabal/bin
+PATH="$PATH":$HOME/.cabal/bin:$HOME/.ghcup/bin
+## Rust
+PATH="$PATH":$HOME/.cargo/bin
+## Python
+PATH="$PATH":$HOME/Library/Python/3.8/bin
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 export PROJECT_HOME=$HOME/projects 
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
-# default editor
+# Default Editor
 export EDITOR=/usr/local/bin/nvim
 
 # Hide username in Agnoster theme
