@@ -76,6 +76,7 @@ alias cl='clear'
 # Haskell Aliases 
 alias sg='stack ghci'
 alias sb='stack build'
+alias sr='stack run'
 alias st='stack test'
 
 alias cb='cabal build'
