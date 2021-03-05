@@ -14,7 +14,7 @@ PATH="$PATH":$HOME/.cabal/bin:$HOME/.ghcup/bin
 PATH="$PATH":$HOME/.cargo/bin
 ## Python
 PATH="$PATH":$HOME/Library/Python/3.8/bin
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
 export PROJECT_HOME=$HOME/projects 
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
@@ -81,6 +81,9 @@ alias st='stack test'
 
 alias cb='cabal build'
 alias ct='cabal test'
+
+# ghc dev
+alias lghc="~/dev/haskell/oss/ghc/_build/stage1/bin/ghc"
 
 alias ghci-core="ghci -ddump-simpl -dsuppress-idinfo \
 -dsuppress-coercions -dsuppress-type-applications \
