@@ -18,6 +18,9 @@ set tabstop=4
 " number of spaces in tab when editing
 set softtabstop=4
 
+" indentation
+set shiftwidth=2
+
 " tabs are spaces
 set expandtab
 
