@@ -32,6 +32,9 @@ HYPHEN_INSENSITIVE="true"
 # Easier navigation
 . `brew --prefix`/etc/profile.d/z.sh
 
+# visual studio
+alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
+
 # ls cmd
 alias l='ls -l'
 alias la='ls -a'
