@@ -72,6 +72,7 @@ set foldnestmax=10
 
 " Remap Leader
 let mapleader = "\<Space>"
+let maplocalleader = ","
 
 " space open/closes folds
 nnoremap <space> za
