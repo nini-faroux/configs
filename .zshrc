@@ -98,7 +98,7 @@ alias pip='pip3'
 
 plugins=(
   git
-  osx
+  macos
   zsh-syntax-highlighting
   zsh-autosuggestions
   vi-mode
